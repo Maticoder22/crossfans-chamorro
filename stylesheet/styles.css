@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-bottom: 6px solid rgb(29, 29, 29);
+
+}
+.enlaces {
+    border-bottom: 03px solid rgb(29, 29, 29);
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    font-family: 'Cormorant SC', serif;
+    text-decoration: none;
+}
+nav {
+    text-align: right;
+}
+.link {
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.enlaces:hover {
+color: white;
+}
+.logo {
+    border: 3px solid rgb(37, 37, 37);
+}
+p {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 1.5;
+}
+.cabecera {
+    font-family: 'Cormorant SC', serif;
+    font-weight: 3000;
+    font-size: 400%;
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+body{
+    background-color: rgb(128, 128, 128);
+}
+.imagenPortada {
+    display: flex;
+    justify-content: center;
+}
+.portada {
+    border: 3px solid rgb(0, 0, 0); 
+    width: 1100px;
+    height: 900px;
+}
+ul {
+    list-style-type: none;
+}
+.titulo {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 6px solid rgb(29, 29, 29);
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    border-top: 6px solid rgb(29, 29, 29);
+}
+.tresRedes {
+    display: flex;
+    justify-content: end;
+}
+.copyright {
+    color: rgb(128, 128, 128);
+    margin-left: 10px;
+}
+.redesTres {
+    color: rgb(128, 128, 128);
+    margin-right: 20px;
+}
+.redesDos {
+    color: rgb(128, 128, 128);
+    margin-right: 20px;
+}
+.redesUno {
+    color: rgb(128, 128, 128);
+    margin-right: 20px;
+}
+.redes:hover {
+    color: rgb(255, 255, 255);
+}
+.columnaVideos {
+    display: flex;
+    flex-direction: column;
+}
+.primeraFilaVideos {
+    display: flex;
+    flex-direction: row;
+}
+.segundaFilaVideos {
+    display: flex;
+    flex-direction: row;
+}
+.atletasUno {
+    font-family: 'Cormorant SC', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 140px;
+    text-decoration: underline solid rgb(58, 57, 57) 3px;
+}
+.atletasDos {
+    font-family: 'Cormorant SC', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 500px;
+    text-decoration: underline solid rgb(58, 57, 57) 3px;
+}
+.videoAtletaDos {
+    margin-left: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+.videoAtletaUno {
+    margin-left: 140px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 100px;
+}
+.tituloDos {
+    font-family: 'Cormorant SC', serif;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    text-decoration: underline solid rgb(58, 57, 57) 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+}
+.crossUno {
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 130px;
+    margin-bottom: 120px;
+    width: 500px;
+}
+.crossDos {
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 130px;
+    margin-bottom: 120px;
+    width: 300px;
+}
+.crossTres {
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: 130px;
+    margin-bottom: 120px;
+    width: 460px;
+}
+.articulos {
+    font-family: 'Cormorant SC', serif;
+    text-decoration: underline solid rgb(58, 57, 57) 3px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.remeras {
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-left: 170px;
+    font-weight: bold;
+}
+.short {
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+.accesorios {
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 100px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+label {
+    font-family: 'Cormorant SC', serif;
+    text-decoration: underline solid rgb(58, 57, 57) 3px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+input {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: x-large;
+    border: solid 3px rgb(29, 29, 29);
+}
+.send {
+    margin-top: 30px;
+    margin-bottom: 350px;
+    font-size: x-large;
+    border: solid 3px rgb(29, 29, 29);
+}
+.tituloContacto {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', serif;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    border-bottom: 6px solid rgb(29, 29, 29);
+}
+legend {
+    font-size: x-large;
+    text-decoration: underline solid rgb(58, 57, 57) 2px;
+}
+/* grid de index*/
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "h2 h2"
+    "p aside"
+    "footer footer";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto ;
+    column-gap: 15px;
+}
+header {
+    grid-area: header;
+}
+.filaDosGrilla {
+    grid-area: h2;
+}
+.imagenPortada {
+    grid-area: aside;
+}
+p {
+    grid-area: p;
+}
+footer {
+    grid-area: footer;
+} 
+
+/* grid de html gallery*/
+#grillaDos {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    ". h2 ."
+    "hileraImagenes hileraImagenes hileraImagenes"
+    "article article article"
+    "footer footer footer";
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+header {
+    grid-area: header;
+}
+section {
+    grid-area: section;
+}
+h2 {
+    grid-area: h2;
+}
+.hileraImagenes {
+    grid-area: hileraImagenes;
+}
+article {
+    grid-area: article;
+}
+footer {
+    grid-area: footer;
+} 
+@media screen and (max-width: 390px) and (orientation: portrait) {
+     #grillaDos {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "h2 h2 h2"
+    "hileraImagenes hileraImagenes hileraImagenes"
+    "article article article"
+    "footer footer footer";
+}
+.logo {
+    width: 90px;
+}
+.cabecera {
+    font-size: 35px;
+}
+.enlaces {
+    font-size: 14px;
+}
+.titulo {
+    text-align: center;
+    font-size: 25px;
+}
+.tituloDos {
+    font-size: 30px;
+}
+.crossUno {
+width: 350px;
+margin-left: 10px;
+}
+.crossDos {
+margin-left: 10px;
+}  
+.crossTres {
+margin-left: 10px;
+width: 350px;
+}
+#grilla {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header header"
+    "h2 h2"
+    "p p"
+    "aside aside"
+    "footer footer";}
+p {
+        text-align: left;
+        line-height: normal;
+    }
+.imagenPortada{
+    display: none;
+}
+}
+   
+    
+    
+    
+
